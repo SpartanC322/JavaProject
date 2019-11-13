@@ -6,6 +6,7 @@ import javafx.scene.Parent;
 import javafx.scene.Scene;
 import javafx.stage.Stage;
 
+
 public class MusicPlayer extends Application{
 
     @Override
@@ -19,5 +20,16 @@ public class MusicPlayer extends Application{
 
     public static void main(String[] args) {
         launch(args);
+
+        //load songs
+
+
+
+        //read each one
+
+        //show on UI
+
+        //try to play them
+
     }
 }
