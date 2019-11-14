@@ -12,12 +12,30 @@ public class Controller
     @FXML
     private Button buttonPlay;
 
-    public void onClick()
+    MediaPlayer player;
+
+    //This method plays music files when the play button is clicked
+    public void onClickPlay()
     {
-        URL resource = getClass().getResource("Test Music/Whole Lotta Love.mp3");
+        URL resource = getClass().getResource("Test Music/Monkeys Spinning Monkeys.mp3");
         Media media = new Media(resource.toString());
-        MediaPlayer player = new MediaPlayer(media);
+        player = new MediaPlayer(media);
         player.play();
     }
 
+    @FXML
+    private buttonLoader;
+
+    public void onClickLoader()
+    {
+        File[] songPlaylist = Playlist.getPlaylist();
+
+        for(int i = 0; i < songPlaylist.length; i++)
+        {
+            File currentSong = new File(songPlaylist.toString());
+
+            player = new MediaPlayer();
+        }
+
+    }
 }
