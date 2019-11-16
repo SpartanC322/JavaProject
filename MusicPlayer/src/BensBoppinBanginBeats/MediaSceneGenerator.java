@@ -1,4 +1,5 @@
 package BensBoppinBanginBeats;
+
 import javafx.application.Platform;
 import javafx.beans.value.ChangeListener;
 import javafx.geometry.Pos;

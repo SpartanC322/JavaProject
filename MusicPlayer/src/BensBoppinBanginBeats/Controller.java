@@ -13,8 +13,6 @@ public class Controller
     private Button buttonPlay;
 
     MediaPlayer player;
-
-    //This method plays music files when the play button is clicked
     public void onClickPlay()
     {
         URL resource = getClass().getResource("Test Music/Monkeys Spinning Monkeys.mp3");
@@ -22,9 +20,11 @@ public class Controller
         player = new MediaPlayer(media);
         player.play();
     }
+    //This method plays music files when the play button is clicked
+
 
     @FXML
-    private buttonLoader;
+    private Button buttonLoader;
 
     public void onClickLoader()
     {
@@ -34,7 +34,7 @@ public class Controller
         {
             File currentSong = new File(songPlaylist.toString());
 
-            player = new MediaPlayer();
+            //player = new MediaPlayer();
         }
 
     }
