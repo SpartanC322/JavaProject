@@ -18,6 +18,7 @@ public class Controller
         URL resource = getClass().getResource("Test Music/Monkeys Spinning Monkeys.mp3");
         Media media = new Media(resource.toString());
         player = new MediaPlayer(media);
+        player.stop();
         player.play();
     }
     //This method plays music files when the play button is clicked
