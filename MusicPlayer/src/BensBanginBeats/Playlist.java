@@ -1,4 +1,4 @@
-package BensBoppinBanginBeats;
+package BensBanginBeats;
 
 import java.io.File;
 import java.util.Arrays;
