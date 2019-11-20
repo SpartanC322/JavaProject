@@ -20,6 +20,9 @@ public class Song
         this.artist = artist;
     }
 
+    public Song(String filePath) {
+    }
+
     public String getName() {
         return name;
     }

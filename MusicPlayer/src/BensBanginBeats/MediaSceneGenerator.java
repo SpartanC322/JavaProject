@@ -14,7 +14,7 @@ import java.io.File;
 import java.util.*;
 
 public class MediaSceneGenerator {
-    private static final String MUSIC_FOLDER = "../MusicPlayer/src/BensBoppinBanginBeats/Test Music/Led Zeppelin II";
+    private static final String MUSIC_FOLDER = "../MusicPlayer/src/BensBoppinBanginBeats/Test Music/";
     private static final String MUSIC_FILE_EXTENSION = ".mp3";
 
     private final Label currentlyPlaying = new Label();
