@@ -1,18 +1,27 @@
 package BensBanginBeats;
 
+import javafx.stage.FileChooser;
 import java.io.File;
 import java.util.ArrayList;
+import java.util.List;
 
 public class Playlist extends AbstractPlaylist
 {
-    private static ArrayList<String> songList = null;
 
-    public static void createPlaylist(String chosenFile, int counter)
+    static List<String> songList = new ArrayList<String>();
+
+    public static void createPlaylist(int counter)
     {
-         songList = new ArrayList<String>();
 
-        songList.set(counter,chosenFile);
-        //getPlaylist(songList);
+        String filePath;
+        FileChooser newFileChooser = new FileChooser();
+        FileChooser.ExtensionFilter filter = new FileChooser.ExtensionFilter("Select mp3..","*.mp3");
+        newFileChooser.getExtensionFilters().add(filter);
+        File file = newFileChooser.showOpenDialog(null);
+        filePath = file.toURI().toString();
+        //filePath = file.toString();
+
+        songList.add(counter,filePath);
 
     }
 
@@ -24,23 +33,9 @@ public class Playlist extends AbstractPlaylist
         }
         else
         {
-            return songList;
+            return (ArrayList<String>) songList;
         }
 
     }
-
-    /*public static File[] getPlaylist()
-    {
-
-        File songDirectory = new File("Test Music");
-
-        File[] songsInDirectory = songDirectory.listFiles();
-
-        Arrays.sort(songsInDirectory);
-
-
-        return songsInDirectory;
-
-    }*/
 
 }
