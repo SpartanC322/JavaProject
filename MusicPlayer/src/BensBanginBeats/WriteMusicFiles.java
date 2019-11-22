@@ -10,7 +10,7 @@ public class WriteMusicFiles {
 
     public static void writeToFile(ArrayList<String> listOfSongs) throws IOException
     {
-        File textFile = new File("../MusicPlayer/src/BensBanginBeats/playlistHistory.txt");
+        File textFile = new File("MusicPlayer/src/BensBanginBeats/playlistHistory.txt");
         FileWriter fw = new FileWriter(textFile, true);
 
         String[] line = new String[100];
