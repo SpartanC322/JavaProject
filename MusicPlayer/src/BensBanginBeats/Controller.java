@@ -16,7 +16,7 @@ import javax.swing.*;
 import java.io.IOException;
 import java.util.ArrayList;
 
-public class Controller implements ControllerInterface
+public class Controller
 {
 
     private int counter = 0;
@@ -56,6 +56,7 @@ public class Controller implements ControllerInterface
 
         try
         {
+
             media = new Media(listOfSongs.get(playlistIndex));
             player = new MediaPlayer(media);
             player.stop();
@@ -134,11 +135,15 @@ public class Controller implements ControllerInterface
 
     public void onMouse(MouseDragEvent mouseDragEvent)
     {
-        //Get progress slider to be move-able to change time in song, not working yet
+        /*
+        Get progress slider to be move-able to change time in song
+        This is currently not working
+        */
         musicTime.setOnMouseClicked(mouseEvent -> player.seek(Duration.seconds(musicTime.getValue())));
 
     }
 
+    //This method stops the current player
     public void onClickStop()
     {
         player.stop();

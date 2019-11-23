@@ -10,6 +10,7 @@ public class Playlist extends AbstractPlaylist
 
     static List<String> songList = new ArrayList<String>();
 
+    //This method creates the playlist
     public static void createPlaylist(int counter)
     {
 
@@ -22,7 +23,6 @@ public class Playlist extends AbstractPlaylist
         //filePath = file.toString();
 
         songList.add(counter,filePath);
-
     }
 
     public static ArrayList<String> getPlaylist()
@@ -35,7 +35,6 @@ public class Playlist extends AbstractPlaylist
         {
             return (ArrayList<String>) songList;
         }
-
     }
 
 }

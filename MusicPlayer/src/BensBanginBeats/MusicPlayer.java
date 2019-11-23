@@ -9,9 +9,10 @@ import javafx.stage.Stage;
 public class MusicPlayer extends Application{
 
     @Override
-    public void start(Stage primaryStage) throws Exception{
+    public void start(Stage primaryStage) throws Exception
+    {
         Parent root = FXMLLoader.load(getClass().getResource("MusicPlayer.fxml"));
-        primaryStage.setTitle("BEN'S BOPPIN' BANGIN' BEATZ");
+        primaryStage.setTitle("BEN'S BANGIN' BEATZ");
         primaryStage.setScene(new Scene(root, 370, 240));
         primaryStage.show();
     }
