@@ -8,10 +8,10 @@ import java.util.List;
 public class Playlist extends AbstractPlaylist
 {
 
-    static List<String> songList = new ArrayList<String>();
+    private static List<String> songList = new ArrayList<String>();
 
     //This method creates the playlist
-    public static void createPlaylist(int counter)
+    public static void setPlaylist(int counter)
     {
 
         String filePath;
@@ -25,6 +25,7 @@ public class Playlist extends AbstractPlaylist
         songList.add(counter,filePath);
     }
 
+    //This method returns the Playlist array
     public static ArrayList<String> getPlaylist()
     {
         if(songList.size() == 0)

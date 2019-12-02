@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ScrollPane?>
 <?import javafx.scene.control.Slider?>
+<?import javafx.scene.control.TextArea?>
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.layout.ColumnConstraints?>
 <?import javafx.scene.layout.GridPane?>
@@ -9,25 +11,32 @@
 <?import javafx.scene.shape.Rectangle?>
 <?import javafx.scene.text.Text?>
 
-<GridPane alignment="center" hgap="10" vgap="10" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="BensBanginBeats.Controller">
+<GridPane alignment="center" hgap="10" vgap="10" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="BensBanginBeats.MusicPlayerController">
    <columnConstraints>
+      <ColumnConstraints />
       <ColumnConstraints />
    </columnConstraints>
    <rowConstraints>
+      <RowConstraints />
       <RowConstraints />
    </rowConstraints>
    <children>
       <AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="200.0" minWidth="370.0" prefHeight="240.0" prefWidth="370.0" style="-fx-background-color: #435156;">
          <children>
-            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="120.0" layoutX="-1.0" layoutY="124.0" stroke="BLACK" strokeType="INSIDE" style="-fx-fill: #874521;" width="376.0" />
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="126.0" layoutY="124.0" stroke="BLACK" strokeType="INSIDE" style="-fx-fill: #874521;" width="370.0" />
             <Button fx:id="buttonBack" layoutX="61.0" layoutY="40.0" mnemonicParsing="false" onAction="#onClickBack" style="-fx-background-color: #8CADBA; -fx-background-radius: 90; -fx-border-color: #371C0C#CE7240; -fx-border-radius: 90;" text="&lt;&lt;" textAlignment="CENTER" />
             <Button fx:id="buttonPlay" layoutX="148.0" layoutY="41.0" mnemonicParsing="false" onAction="#onClickPlay" style="-fx-background-color: #8CADBA; -fx-background-radius: 90; -fx-border-color: #381C0A; -fx-border-radius: 90;" text="&gt;" textAlignment="CENTER" />
             <Button fx:id="buttonLoader" layoutX="127.0" layoutY="184.0" mnemonicParsing="false" onAction="#onClickLoader" prefHeight="32.0" prefWidth="117.0" style="-fx-background-color: #CE7240; -fx-background-radius: 90; -fx-border-color: #8CADBA; -fx-border-radius: 90;" text="Load Files" />
           <Button fx:id="buttonNext" layoutX="279.0" layoutY="41.0" mnemonicParsing="false" onAction="#onClickNext" style="-fx-background-color: #8CADBA; -fx-background-radius: 90; -fx-border-color: #371C0C#CE7240; -fx-border-radius: 90;" text="&gt;&gt;" textAlignment="CENTER" />
             <Slider fx:id="musicTime" layoutX="53.0" layoutY="96.0" onDragDetected="#onMouse" prefHeight="14.0" prefWidth="267.0" style="-fx-control-inner-background: #8CADBA;" />
-            <Text fx:id="numberInPlaylist" layoutX="63.0" layoutY="155.0" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-text-alignment: center; -fx-fill: #8CADBA;" text="Welcome to Ben's Bangin' Beats" wrappingWidth="267.0" />
+            <Text fx:id="numberInPlaylist" layoutX="52.0" layoutY="154.0" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-text-alignment: center; -fx-fill: #8CADBA;" text="Welcome to Ben's Bangin' Beats" wrappingWidth="267.0" />
             <Button fx:id="buttonStop" layoutX="203.0" layoutY="41.0" mnemonicParsing="false" onAction="#onClickStop" style="-fx-background-color: #8CADBA; -fx-background-radius: 90; -fx-border-color: #381C0A; -fx-border-radius: 90;" text="||" textAlignment="CENTER" />
          </children>
       </AnchorPane>
+      <ScrollPane fx:id="theSacredPane" prefHeight="200.0" prefWidth="200.0" GridPane.columnIndex="1">
+         <content>
+            <TextArea fx:id="theSacredText" prefHeight="546.0" prefWidth="546.0" />
+         </content>
+      </ScrollPane>
    </children>
 </GridPane>

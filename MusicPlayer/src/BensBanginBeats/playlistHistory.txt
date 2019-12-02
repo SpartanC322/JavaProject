@@ -27,12 +27,7 @@ Song: file:/C:/Users/SpartanC322/IdeaProjects/Test%20Music/Led%20Zeppelin%20II/0
 Song: file:/C:/Users/SpartanC322/IdeaProjects/Test%20Music/Led%20Zeppelin%20II/04.%20Thank%20You.mp3
 Song: file:/home/spartanc322/IdeaProjects/JavaProject-master/MusicPlayer/src/BensBanginBeats/Test%20Music/Monkeys%20Spinning%20Monkeys.mp3
 Song: file:/E:/Media/Music/%5B2003%5D%20The%20Terror%20State/06%20-%20Mind%20the%20G.A.T.T..mp3
-Song: file:/E:/Media/Music/%5B2003%5D%20The%20Terror%20State/06%20-%20Mind%20the%20G.A.T.T..mp3
-Song: file:/C:/Users/Engels/IdeaProjects/JavaProject/MusicPlayer/src/BensBanginBeats/Test%20Music/Monkeys%20Spinning%20Monkeys%20(copy).mp3
-Song: file:/C:/Users/Engels/IdeaProjects/JavaProject/MusicPlayer/src/BensBanginBeats/Test%20Music/Monkeys%20Spinning%20Monkeys%20(copy).mp3
-Song: file:/C:/Users/Engels/IdeaProjects/JavaProject/MusicPlayer/src/BensBanginBeats/Test%20Music/Monkeys%20Spinning%20Monkeys%20(copy).mp3
-Song: file:/C:/Users/Engels/IdeaProjects/JavaProject/MusicPlayer/src/BensBanginBeats/Test%20Music/Monkeys%20Spinning%20Monkeys%20(copy).mp3
-Song: file:/C:/Users/Engels/IdeaProjects/JavaProject/MusicPlayer/src/BensBanginBeats/Test%20Music/Monkeys%20Spinning%20Monkeys%20(copy).mp3
+Song: file:/E:/Media/Music/%5B2003%5D%20The%20Terror%20State/06%20-%20Mind%20the%20G.A.T.T..mp3Song: file:/C:/Users/Engels/IdeaProjects/JavaProject/MusicPlayer/src/BensBanginBeats/Test%20Music/Monkeys%20Spinning%20Monkeys%20(copy).mp3
 Song: file:/C:/Users/Engels/IdeaProjects/JavaProject/MusicPlayer/src/BensBanginBeats/Test%20Music/Monkeys%20Spinning%20Monkeys%20(copy).mp3
 Song: file:/C:/Users/Engels/IdeaProjects/JavaProject/MusicPlayer/src/BensBanginBeats/Test%20Music/Monkeys%20Spinning%20Monkeys%20(copy).mp3
 Song: file:/C:/Users/Engels/IdeaProjects/JavaProject/MusicPlayer/src/BensBanginBeats/Test%20Music/Monkeys%20Spinning%20Monkeys%20(copy).mp3
@@ -41,5 +36,17 @@ Song: file:/C:/Users/Engels/IdeaProjects/JavaProject/MusicPlayer/src/BensBanginB
 Song: file:/C:/Users/Engels/IdeaProjects/JavaProject/MusicPlayer/src/BensBanginBeats/Test%20Music/Monkeys%20Spinning%20Monkeys.mp3
 Song: file:/C:/Users/Engels/IdeaProjects/JavaProject/MusicPlayer/src/BensBanginBeats/Test%20Music/Monkeys%20Spinning%20Monkeys%20(copy).mp3
 Song: file:/C:/Users/Engels/IdeaProjects/JavaProject/MusicPlayer/src/BensBanginBeats/Test%20Music/Monkeys%20Spinning%20Monkeys.mp3
+Song: file:/C:/Users/Engels/IdeaProjects/JavaProject/MusicPlayer/src/BensBanginBeats/Test%20Music/Monkeys%20Spinning%20Monkeys.mp3
 Song: file:/C:/Users/Engels/IdeaProjects/JavaProject/MusicPlayer/src/BensBanginBeats/Test%20Music/Monkeys%20Spinning%20Monkeys%20(copy).mp3
 Song: file:/C:/Users/Engels/IdeaProjects/JavaProject/MusicPlayer/src/BensBanginBeats/Test%20Music/Monkeys%20Spinning%20Monkeys.mp3
+Song: file:/C:/Users/Engels/IdeaProjects/JavaProject/MusicPlayer/src/BensBanginBeats/Test%20Music/Monkeys%20Spinning%20Monkeys.mp3
+Song: file:/C:/Users/Engels/IdeaProjects/JavaProject/MusicPlayer/src/BensBanginBeats/Test%20Music/Monkeys%20Spinning%20Monkeys.mp3
+Song: file:/C:/Users/Engels/IdeaProjects/JavaProject/MusicPlayer/src/BensBanginBeats/Test%20Music/Monkeys%20Spinning%20Monkeys.mp3
+Song: file:/C:/Users/Engels/IdeaProjects/JavaProject/MusicPlayer/src/BensBanginBeats/Test%20Music/Midranger%20-%20Unrequited%20(feat.%20Holly%20Drummond)%20%5BNCS%20Release%5D.mp3
+Song: file:/C:/Users/Engels/IdeaProjects/JavaProject/MusicPlayer/src/BensBanginBeats/Test%20Music/Monkeys%20Spinning%20Monkeys.mp3
+Song: file:/C:/Users/Engels/IdeaProjects/JavaProject/MusicPlayer/src/BensBanginBeats/Test%20Music/Midranger%20-%20Unrequited%20(feat.%20Holly%20Drummond)%20%5BNCS%20Release%5D.mp3
+Song: file:/C:/Users/Engels/IdeaProjects/JavaProject/MusicPlayer/src/BensBanginBeats/Test%20Music/Monkeys%20Spinning%20Monkeys.mp3
+Song: file:/C:/Users/Engels/IdeaProjects/JavaProject/MusicPlayer/src/BensBanginBeats/Test%20Music/Midranger%20-%20Unrequited%20(feat.%20Holly%20Drummond)%20%5BNCS%20Release%5D.mp3
+Song: file:/C:/Users/Engels/IdeaProjects/JavaProject/MusicPlayer/src/BensBanginBeats/Test%20Music/Monkeys%20Spinning%20Monkeys.mp3
+Song: file:/C:/Users/Engels/IdeaProjects/JavaProject/MusicPlayer/src/BensBanginBeats/Test%20Music/Monkeys%20Spinning%20Monkeys.mp3
+Song: file:/C:/Users/Engels/IdeaProjects/JavaProject/MusicPlayer/src/BensBanginBeats/Test%20Music/Midranger%20-%20Unrequited%20(feat.%20Holly%20Drummond)%20%5BNCS%20Release%5D.mp3

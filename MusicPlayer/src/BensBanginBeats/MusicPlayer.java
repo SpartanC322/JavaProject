@@ -8,13 +8,17 @@ import javafx.stage.Stage;
 
 public class MusicPlayer extends Application{
 
+
+
+
     @Override
     public void start(Stage primaryStage) throws Exception
     {
         Parent root = FXMLLoader.load(getClass().getResource("MusicPlayer.fxml"));
         primaryStage.setTitle("BEN'S BANGIN' BEATZ");
-        primaryStage.setScene(new Scene(root, 370, 240));
+        primaryStage.setScene(new Scene(root, 580, 240));
         primaryStage.show();
+       // theSacredText.setText(WriteMusicFiles.fillTextArea());
     }
 
 

@@ -5,25 +5,32 @@ import javafx.beans.value.ObservableValue;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.scene.control.Button;
+import javafx.scene.control.ScrollPane;
 import javafx.scene.control.Slider;
+import javafx.scene.control.TextArea;
 import javafx.scene.input.MouseDragEvent;
+import javafx.scene.layout.AnchorPane;
 import javafx.scene.media.Media;
 import javafx.scene.media.MediaPlayer;
 import javafx.scene.text.Text;
 import javafx.util.Duration;
 
 import javax.swing.*;
+import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.util.ArrayList;
 
-public class Controller
+public class MusicPlayerController
 {
 
     private int counter = 0;
     private int playlistIndex = 0;
     private MediaPlayer player;
     private ArrayList<String> listOfSongs;
-    Media media;
+    private Media media;
+
+    @FXML
+    private TextArea theSacredText;
 
     @FXML
     private Button buttonPlay;
@@ -41,18 +48,21 @@ public class Controller
     private Slider musicTime;
 
     //This loads file into the playlist through the createPlaylist method
-    public void onClickLoader()
-    {
+    public void onClickLoader() throws FileNotFoundException {
 
-        Playlist.createPlaylist(counter);
+        Playlist.setPlaylist(counter);
         counter = counter + 1;
+
+       theSacredText.setText(Playlist.getPlaylist().toString());
 
     }
 
     //This method plays music files when the play button is clicked and writes them to the playlistHistory.txt
     public void onClickPlay() throws IOException
     {
-        listOfSongs = Playlist.getPlaylist();
+       listOfSongs = Playlist.getPlaylist();
+
+        //listOfSongs = PlaylistInterface.getPlaylist();
 
         try
         {
