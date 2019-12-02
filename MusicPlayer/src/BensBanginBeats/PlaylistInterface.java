@@ -14,5 +14,5 @@ public interface PlaylistInterface
      *
      * @return the playlist
      */
-    public static ArrayList<String> getPlaylist() {return null;}
+    static ArrayList<String> getPlaylist() {return null;}
 }

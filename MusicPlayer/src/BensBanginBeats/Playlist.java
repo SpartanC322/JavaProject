@@ -13,8 +13,6 @@ import java.util.List;
 public class Playlist extends AbstractPlaylist
 {
 
-
-
     private static List<String> songList = new ArrayList<String>();
 
     /**
@@ -23,6 +21,7 @@ public class Playlist extends AbstractPlaylist
      * @param counter the counter
      */
 //This method creates the playlist
+    //Knowledge of File Chooser obtained from:https://docs.oracle.com/javase/tutorial/uiswing/components/filechooser.html
     public static void setPlaylist(int counter)
     {
 

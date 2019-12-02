@@ -80,8 +80,6 @@ public class MusicPlayerController
     {
        listOfSongs = Playlist.getPlaylist();
 
-        //listOfSongs = PlaylistInterface.getPlaylist();
-
         try
         {
 
@@ -139,7 +137,6 @@ public class MusicPlayerController
         });
     }
 
-
     /**
      * On click back.
      *
@@ -177,6 +174,7 @@ public class MusicPlayerController
      * @param mouseDragEvent the mouse drag event
      */
 //this method should make the slider slide when dragged but doesn't
+    //This method is adapted from this youtube video:https://youtu.be/7Gdxl2045l8?t=2541
     public void onMouse(MouseDragEvent mouseDragEvent)
     {
         /*

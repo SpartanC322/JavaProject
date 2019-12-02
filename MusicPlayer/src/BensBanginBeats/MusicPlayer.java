@@ -1,3 +1,4 @@
+//General knowledge of JavaFX gained from this website:https://www.javatpoint.com/javafx-tutorial
 //This is the main class, it runs the application
 
 package BensBanginBeats;
