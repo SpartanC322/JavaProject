@@ -1,3 +1,5 @@
+//This class creates the events when buttons are clicked, example, Play, pause, previous, next buttons and load file button.
+
 package BensBanginBeats;
 
 import javafx.beans.value.ChangeListener;
@@ -20,6 +22,9 @@ import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.util.ArrayList;
 
+/**
+ * The type Music player controller.
+ */
 public class MusicPlayerController
 {
 
@@ -47,17 +52,30 @@ public class MusicPlayerController
     @FXML
     private Slider musicTime;
 
-    //This loads file into the playlist through the createPlaylist method
-    public void onClickLoader() throws FileNotFoundException {
+    /**
+     * On click loader.
+     *
+     * @throws IOException the io exception
+     */
+//This method loads file into the playlist through the createPlaylist method
+    public void onClickLoader() throws IOException {
 
+        //This method keeps track of how many new songs are loaded into the playlist and
+        // sends the current number to the setPlaylist array so the new file can be added to the next array index
         Playlist.setPlaylist(counter);
         counter = counter + 1;
 
-       theSacredText.setText(Playlist.getPlaylist().toString());
+        //the called method works the intended way but also doesn't.
+        theSacredText.setText(WriteMusicFiles.fillTextArea());
 
-    }
+    } //end of onClickLoader
 
-    //This method plays music files when the play button is clicked and writes them to the playlistHistory.txt
+    /**
+     * On click play.
+     *
+     * @throws IOException the io exception
+     */
+//This method plays music files when the play button is clicked and writes them to the playlistHistory.txt
     public void onClickPlay() throws IOException
     {
        listOfSongs = Playlist.getPlaylist();
@@ -89,9 +107,14 @@ public class MusicPlayerController
 
        WriteMusicFiles.writeToFile(listOfSongs);
 
-    }
+    } //end of onClickPlay
 
-    //This method plays the next song
+    /**
+     * On click next.
+     *
+     * @param actionEvent the action event
+     */
+//This method plays the next song
     public void onClickNext(ActionEvent actionEvent)
     {
         try
@@ -117,7 +140,12 @@ public class MusicPlayerController
     }
 
 
-    //This method plays the previous song in the playlist
+    /**
+     * On click back.
+     *
+     * @param actionEvent the action event
+     */
+//This method plays the previous song in the playlist
     public void onClickBack(ActionEvent actionEvent)
     {
         try
@@ -141,8 +169,14 @@ public class MusicPlayerController
             }
         });
 
-    }
+    } //end of onClickBack
 
+    /**
+     * On mouse.
+     *
+     * @param mouseDragEvent the mouse drag event
+     */
+//this method should make the slider slide when dragged but doesn't
     public void onMouse(MouseDragEvent mouseDragEvent)
     {
         /*
@@ -151,9 +185,12 @@ public class MusicPlayerController
         */
         musicTime.setOnMouseClicked(mouseEvent -> player.seek(Duration.seconds(musicTime.getValue())));
 
-    }
+    } //end of onMouse
 
-    //This method stops the current player
+    /**
+     * On click stop.
+     */
+//This method stops the current player
     public void onClickStop()
     {
         player.stop();

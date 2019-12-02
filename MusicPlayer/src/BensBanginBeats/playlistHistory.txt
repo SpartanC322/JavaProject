@@ -50,3 +50,6 @@ Song: file:/C:/Users/Engels/IdeaProjects/JavaProject/MusicPlayer/src/BensBanginB
 Song: file:/C:/Users/Engels/IdeaProjects/JavaProject/MusicPlayer/src/BensBanginBeats/Test%20Music/Monkeys%20Spinning%20Monkeys.mp3
 Song: file:/C:/Users/Engels/IdeaProjects/JavaProject/MusicPlayer/src/BensBanginBeats/Test%20Music/Monkeys%20Spinning%20Monkeys.mp3
 Song: file:/C:/Users/Engels/IdeaProjects/JavaProject/MusicPlayer/src/BensBanginBeats/Test%20Music/Midranger%20-%20Unrequited%20(feat.%20Holly%20Drummond)%20%5BNCS%20Release%5D.mp3
+Song: file:/C:/Users/Engels/IdeaProjects/JavaProject/MusicPlayer/src/BensBanginBeats/Test%20Music/Midranger%20-%20Unrequited%20(feat.%20Holly%20Drummond)%20%5BNCS%20Release%5D.mp3
+Song: file:/C:/Users/Engels/IdeaProjects/JavaProject/MusicPlayer/src/BensBanginBeats/Test%20Music/Midranger%20-%20Unrequited%20(feat.%20Holly%20Drummond)%20%5BNCS%20Release%5D.mp3
+Song: file:/C:/Users/Engels/IdeaProjects/JavaProject/MusicPlayer/src/BensBanginBeats/Test%20Music/Monkeys%20Spinning%20Monkeys.mp3
